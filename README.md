@@ -14,9 +14,45 @@ git branch branch_name
 git checkout branch_name
 
 OR 
-# creates the branch and moves inside it (skipping step 3 and step 4)
+Creates the branch and moves inside it (skipping step 3 and step 4)
 git checkout -b branch_name
 
-# moves to main branch
+Moves to main branch
 git checkout main 
+
+# Syntax to be used in the code:  (Just to make sure code is uniform)
+
+import pandas as pd
+import numpy as np
+import matlibplot.plot as plt
+
+temp_RenuBranch - this format is called Camel_Case. We will use this format for all variables and functions throughout our code.
+
+Variable name should be a valid column name. you can keep it short like abbreviation.
+any temporary variable as temp_Variable_name
+Integer variable i_VariableName "first letter should be capital"
+Similarly for other datatypes
+
+array variable arr_ArrayName "first letter should be capital"
+
+dataframe as df_DataFrame "First letter should be capital"
+
+
+Always add a valid commit message while committing the code.
+After pushing the code it shuld be reviewed. whoever is reviewing the code, can add their comments and send a message. If valid you can change and send to review again. Only after reviewing, the reviewing person can checkin the code
+
+When starting the code, please add comments in the beginning, on the "Your Name" "Question number": "question". it can be double line comment also. So everytime we merge we can verify all your answers are there. also it wil be easy for the reviewers to check the answers.
+
+Add more comments wherever needed. 
+
+Each of us will concentrate on 5 additional analysis maximum, while doing the questions itself. 
+
+To avaoid last merge conflicts at the end, We will checkin the code daily and merge it to main branch. and pull the data every morning and work on top of it. 
+
+Challenges:
+If you find any challange, write down in a file and push it in the main branch, We will use it for presentation. Syntax as "your name"_Challenge
+
+Code Reviews Principles:
+Functionality, Labels, Charts, Syntax, Units, Screenshots, etc.
+Missing Inline Comments, Spelling mistakes can also be a review point.
 
